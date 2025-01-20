@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return f"""
-    <h1>Flask App without MongoDB</h1>
+    <h1>CHALLENGE 6 : Flask App without MongoDB</h1>
     <p>Current Time: {current_time}</p>
     """
 

@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: webnodbchallenge6-deployment
-  namespace: womri
+  namespace: hmahjoub
 spec:
   replicas: 1
   selector:
